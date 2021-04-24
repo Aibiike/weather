@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+body{
+
+    font-family: 'Playfair Display', serif;
+    background: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1140&q=80") no-repeat center/cover;
+}
+.name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.form{
+    height: 30px;
+
+}
+.img{
+    width: 140px;
+    height: 135px;
+}
+input{
+    width: 190px;
+    height: 100%;
+    padding: 0 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: 0;
+    border: none;
+}
+
+button{
+    width: 60px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.box{
+    background: rgba(250, 246, 224, 0.6);
+    color: black;
+    border-radius: 30px;
+    width: 600px;
+    height: 580px;
+    padding: 20px 50px;
+    text-align: center;
+}
+.wind{
+    margin: 10px 0;
+}
+.humidity{
+    margin-bottom: 10px;
+}
+.und{
+    font-size: 35px;
+    color: #bf2323;
+}
+.title{
+    color: black;
+    margin-bottom:20px;
+}
+.name{
+    margin-top: 20px;
+}
+.card-group{
+    background: rgb(167, 155, 94, 0.6);
+    color: black;
+    margin-top: 20px;
+}
+.card-img-top{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
