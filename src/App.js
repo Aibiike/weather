@@ -26,7 +26,7 @@ function App() {
 
     useEffect(() => {
         getWeather()
-    }, [getWeather])
+    }, [])
 
 
 // if (weather.main === undefined){
